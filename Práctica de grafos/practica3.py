@@ -182,6 +182,3 @@ def test_todos_los_casos():
     print(determina_caminos(['a', 'b', 'c', 'd']))  # Camino simple
     print(determina_caminos(['a', 'b', 'd', 'e', 'c', 'b']))  # Recorrido
     print(determina_caminos([]))  # Camino vacio
-
-# Ejecutar todos los tests
-test_todos_los_casos()
